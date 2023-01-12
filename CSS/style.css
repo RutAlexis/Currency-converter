@@ -10,7 +10,9 @@ html {
     padding: 30px;
     margin: 0 auto;
     max-width: 800px;
+    background-image: url("../images/backgroundPicture.jpg");
 }
+
 
 .button {
     padding: 10px;
