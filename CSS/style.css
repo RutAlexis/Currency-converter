@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.button {
+    padding: 10px;
+    color: black;
+    background-color: hsl(231, 6%, 85%);
+    border-style: none;
+    border-radius: 10%;
+}
+
+.fieldset__button {
+    padding: 7px;
+    color: black;
+    background-color: hsl(231, 6%, 85%);
+    border-style: none;
+    width: 120px;
+    border-radius: 10%;
+}
+
+.list__item {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.list {
+    padding: 0;
+}
+
+.fieldset__buttonReset {
+    padding: 7px;
+    color: black;
+    background-color: hsl(231, 6%, 85%);
+    border-style: none;
+    width: 120px;
+    border-radius: 10%;
+}
+
+.fieldset__span {
+    font-weight: bolder;
+}
+
+.section {
+    color: blue;
+}

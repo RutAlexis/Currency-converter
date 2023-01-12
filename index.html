@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <meta property="og:image" content="images/share.png">
+    <link rel="icon" href="images/logoNorway.png">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kalkulator walut</title>
+</head>
+
+<body class="body">
+    <p>
+        <button class="button">Kalkulator walut</button>
+
+    </p>
+    <form class="js-form">
+        <fieldset class="fieldset">
+            <p>
+                <label>
+                    Kwota (zł):
+                    <input type="number" name="kwota" class="js-amount" min="1" step="0.1" required autofocus
+                        placeholder="Wpisz kwotę">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Wybierz walutę:
+                    <select name="currencySelection" class="js-currencySelection">
+                        <option value="EUR">Euro</option>
+                        <option value="NOK">Korona norweska</option>
+                        <option value="AUD">Dolar australijski</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <button class="fieldset__button js-button">Przelicz</button>
+                <button type="reset" class="fieldset__buttonReset">Wyczyść</button>
+            </p>
+            <p>
+                <span class="fieldset__span">Kwota po przeliczeniu: <strong class="js-result"></span></strong>
+            </p>
+        </fieldset>
+    </form>
+
+    <p>Kurs walut (06.01.2023r.):</p>
+    <ul class="list">
+        <li class="list__item"> 1 EUR Euro - 4,70 zł</li>
+        <li class="list__item"> 1 NOK Korona norweska - 0,44 zł</li>
+        <li class="list__item"> 1 AUD Dolar australijski - 3,02 zł</li>
+    </ul>
+    
+               
+
+    </section>
+</body>
+
+</html>
