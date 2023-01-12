@@ -20,37 +20,3 @@ html {
     border-radius: 10%;
 }
 
-.fieldset__button {
-    padding: 7px;
-    color: black;
-    background-color: hsl(231, 6%, 85%);
-    border-style: none;
-    width: 120px;
-    border-radius: 10%;
-}
-
-.list__item {
-    list-style-type: none;
-    margin: 10px;
-}
-
-.list {
-    padding: 0;
-}
-
-.fieldset__buttonReset {
-    padding: 7px;
-    color: black;
-    background-color: hsl(231, 6%, 85%);
-    border-style: none;
-    width: 120px;
-    border-radius: 10%;
-}
-
-.fieldset__span {
-    font-weight: bolder;
-}
-
-.section {
-    color: blue;
-}
