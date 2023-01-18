@@ -24,7 +24,7 @@ PLN - AUD
 
 ##
 
-Technologies used:
+**Technologies used:**
 
 HTML
 
