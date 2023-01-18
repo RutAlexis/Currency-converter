@@ -27,7 +27,10 @@ PLN - AUD
 Technologies used:
 
 HTML
+
 CSS
+
 JavaScript (ES6+ Features)
+
 BEM convention
 
